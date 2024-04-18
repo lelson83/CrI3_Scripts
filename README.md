@@ -1,6 +1,8 @@
 # CrI3_Scripts
 Scripts to calculate ground state and spin excitation of the monolayer of CrI3
 
+In the above folders, you can find the input files for VAMPIRE Software for atomistic simulations (https://vampire.york.ac.uk/)
+The results were published in the paper: .....
 
 ExtF_0T_OOP - contains the input files for OOP spin configuration for Heisenberg-BQ-DM and Kitaev models
 ExtF_0T_OOP_DMI_angle - contains the input files for OOP spin configuration for Heisenberg-BQ-DM model with different DMI vector angle
