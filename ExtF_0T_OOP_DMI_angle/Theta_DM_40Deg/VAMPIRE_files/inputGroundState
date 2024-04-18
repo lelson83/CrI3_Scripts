@@ -1,0 +1,61 @@
+#------------------------------------------
+# Sample vampire input file to perform
+# benchmark calculation for v6+
+#
+#------------------------------------------
+
+#------------------------------------------
+# Creation attributes:
+#------------------------------------------
+create:crystal-structure=honeycomb
+
+create:periodic-boundaries-x
+create:periodic-boundaries-y
+#create:periodic-boundaries-z
+
+#------------------------------------------
+# System Dimensions:
+#------------------------------------------
+dimensions:unit-cell-size = 0.7079 !nm
+dimensions:system-size-x = 318.555 !nm
+dimensions:system-size-y = 183.918 !nm
+dimensions:system-size-z = 0.6 !nm
+
+#------------------------------------------
+# Material Files:
+#------------------------------------------
+material:file = CrI3-GroundState.mat
+material:unit-cell-file = CrI3-J123NN-BQ-DM_Theta40Deg-Interactions.ucf
+
+#------------------------------------------
+# Simulation attributes:
+#------------------------------------------
+sim:temperature = 0.01
+sim:time-steps-increment = 10
+sim:equilibration-time-steps=5000
+sim:equilibration-temperature=0.01
+sim:total-time-steps = 5000
+sim:time-step = 0.5e-14
+
+sim:applied-field-strength = 0 !T
+sim:applied-field-unit-vector = 0, 0, 1
+
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:program = time-series
+sim:integrator = monte-carlo
+sim:save-checkpoint = end
+
+
+#------------------------------------------
+# data output
+#------------------------------------------
+output:real-time
+output:magnetisation
+
+screen:time-steps
+screen:magnetisation-length
+
+config:atoms
+config:atoms-output-rate=1
