@@ -1,0 +1,70 @@
+16-04-2024 [15:05:29] Logfile opened
+16-04-2024 [15:05:29] Executable : vampire-serial
+16-04-2024 [15:05:29] Host name  : MacBook-Pro-2.local:
+16-04-2024 [15:05:29] Directory  : /Users/apple/Documents/IFJ/Projekty/Magnetism/Vampire/magnon/develop/dynamics/CrI3/ResultsToPaper/Repo/ExtF_0T_OOP/Heisenberg-J1-J2-J3-BQ-DMI/system
+16-04-2024 [15:05:29] Process ID : 5166
+16-04-2024 [15:05:29] Version    : 6.0.0
+16-04-2024 [15:05:29] Githash    : 4c9651daecc86c3e6b6df0c8055fcd9e89fd900c
+16-04-2024 [15:05:29] Opening main input file "input".
+16-04-2024 [15:05:29] Parsing system parameters from main input file.
+16-04-2024 [15:05:29] Opening material file "CrI3-ThermalExcitation.mat".
+16-04-2024 [15:05:29] Parsing material file for parameters.
+16-04-2024 [15:05:29] Reading in unit cell data from disk...
+16-04-2024 [15:05:29] Reading data completed. Processing unit cell data...
+16-04-2024 [15:05:29] 	Processing data for 4 unit cell atoms...
+16-04-2024 [15:05:29] 	Processing unit cell atoms completed
+16-04-2024 [15:05:29] 	Processing data from 48 interactions...
+16-04-2024 [15:05:29] 	Processing unit cell atoms completed
+16-04-2024 [15:05:29] 	Processing data from 12 interactions...
+16-04-2024 [15:05:29] 	Processing unit cell interactions completed
+16-04-2024 [15:05:29] 	Verifying unit cell exchange interactions...
+16-04-2024 [15:05:29] Enabling biquadratic interactions from unit cell file
+16-04-2024 [15:05:29] Verifying unit cell exchange interactions completed
+16-04-2024 [15:05:29] 	Number of atoms read-in: 4
+16-04-2024 [15:05:29] 	Number of bilinear interactions read-in: 48
+16-04-2024 [15:05:29] 	Number of biquadratic interactions read-in: 12
+16-04-2024 [15:05:29] 	Exchange type: 
+16-04-2024 [15:05:29] 	Calculated interaction range: 1 Unit Cells
+16-04-2024 [15:05:29] Calculating alloy properties of system
+16-04-2024 [15:05:29] Determining atomic composition:
+16-04-2024 [15:05:29] Material 1 Cr makes up 100 % of all atoms ( 270600 atoms )
+16-04-2024 [15:05:29] Memory required for neighbourlist calculation:2.1648 MB
+16-04-2024 [15:05:29] Allocating memory for supercell array in neighbourlist calculation
+16-04-2024 [15:05:29] 	Allocating memory done
+16-04-2024 [15:05:29] Populating supercell array for neighbourlist calculation...
+16-04-2024 [15:05:29] 	Populating supercell array completed
+16-04-2024 [15:05:29] Memory required for neighbour list:25.9776 MB
+16-04-2024 [15:05:29] Generating neighbour list...
+16-04-2024 [15:05:29] 	Neighbour list calculation complete
+16-04-2024 [15:05:29] Deallocating supercell array for neighbour list calculation
+16-04-2024 [15:05:29] 	Supercell array deallocated
+16-04-2024 [15:05:29] Memory required for neighbourlist calculation:2.1648 MB
+16-04-2024 [15:05:29] Allocating memory for supercell array in neighbourlist calculation
+16-04-2024 [15:05:29] 	Allocating memory done
+16-04-2024 [15:05:29] Populating supercell array for neighbourlist calculation...
+16-04-2024 [15:05:29] 	Populating supercell array completed
+16-04-2024 [15:05:29] Memory required for neighbour list:6.4944 MB
+16-04-2024 [15:05:29] Generating neighbour list...
+16-04-2024 [15:05:29] 	Neighbour list calculation complete
+16-04-2024 [15:05:29] Deallocating supercell array for neighbour list calculation
+16-04-2024 [15:05:29] 	Supercell array deallocated
+16-04-2024 [15:05:29] Copying system data to optimised data structures.
+16-04-2024 [15:05:29] Number of atoms generated on rank 0: 270600
+16-04-2024 [15:05:29] Memory required for copying to performance array on rank 0: 41.1312 MB RAM
+16-04-2024 [15:05:29] Identifying surface atoms using global threshold value of 0
+16-04-2024 [15:05:29] 0 surface atoms found.
+16-04-2024 [15:05:29] Memory required for creation of 1D neighbour list on rank 0: 4.3296 MB RAM
+16-04-2024 [15:05:29] Initialising data structures for exchange calculation.
+16-04-2024 [15:05:29] Unrolled exchange template requires 0.003456MB RAM
+16-04-2024 [15:05:29] Initialising biquadratic exchange interactions.
+16-04-2024 [15:05:29] Unrolled biquadratic exchange template requires 9.6e-05MB RAM
+16-04-2024 [15:05:29] Macrocell size = 10 Angstroms
+16-04-2024 [15:05:29] Macrocells in x,y,z: 320	184	1
+16-04-2024 [15:05:29] Total number of macrocells: 58880
+16-04-2024 [15:05:29] Memory required for macrocell arrays: 4.7104 MB
+16-04-2024 [15:05:30] Number of local macrocells on rank 0: 58696
+16-04-2024 [15:05:30] Number of atoms generated: 270600
+16-04-2024 [15:05:30] Initialising data structures for anisotropy calculation.
+16-04-2024 [15:05:30] Error: Unable to open checkpoint file vampire0.chk for reading. Exiting.
+16-04-2024 [15:05:30] Info: sim:continue may be specified in the input file which requires a valid checkpoint file.
+16-04-2024 [15:05:30] Fatal error: Aborting program.
