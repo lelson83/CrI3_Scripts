@@ -6,7 +6,7 @@ set pm3d map interpolate 1,1
 set pm3d depthorder
 set xlabel 'k - momentum vector' font ",25" offset 0,-3,0
 set ylabel 'ω[meV]' font ",25" offset -5,0,0
-set title 'Heisenberg-J123-BQ-DMI - Ext. Field - 35Deg' font ",25"
+set title 'Heisenberg-J123-BQ-DMI - Spin Direction - 35Deg' font ",25"
 # Define a color gradient palette used by pm3d
 set palette defined (-0.04 "#042333",0.00 "#de7065", 0.04 "#e8fa5b")
 set format y "%.0f"
